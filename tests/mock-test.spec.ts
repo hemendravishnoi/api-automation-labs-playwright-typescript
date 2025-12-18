@@ -1,3 +1,4 @@
+import '../mock/setupServer.js';
 import { test, expect, request } from '@playwright/test';
 
 test('Mock users API (backend only)', async ({ request }) => {
